@@ -1,0 +1,618 @@
+[
+    {
+        "qmetry_testcase_execution_id": 83517411,
+        "qmetry_summary": "Authenticated user observes expected Network rail metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517412,
+        "qmetry_summary": "Deep Link to video player as signed user"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517413,
+        "qmetry_summary": "Deep Link to video player as unauth user"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517414,
+        "qmetry_summary": "Deep Link to video player as signed user"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517415,
+        "qmetry_summary": "Verify CTA buttons landing pages from home screen"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517416,
+        "qmetry_summary": "Validate onboarding for a new user via Home screen"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517417,
+        "qmetry_summary": "Verify Metadata & seekbar during playback"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517418,
+        "qmetry_summary": "Live Linear playback from 16:9 tile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517419,
+        "qmetry_summary": "Live Linear 16:9 Tiles MetaData validation"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517420,
+        "qmetry_summary": "Authenticated User - Validate Player Controls on VOD/Standalone Contents"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517421,
+        "qmetry_summary": "Authenticated user is able to skip intros"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517422,
+        "qmetry_summary": "Age Rating and Content Descriptors  on the playlist page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517423,
+        "qmetry_summary": "Age Rating and Content Descriptors in the video player"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517424,
+        "qmetry_summary": "Play Episode from info panel"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517425,
+        "qmetry_summary": "Open Info panel by selecting Description text box on CDP - In Progress state"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517426,
+        "qmetry_summary": "Open Info panel by selecting Description text box on CDP - Completed Watching state"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517427,
+        "qmetry_summary": "Open Info panel by selecting Description text box on CDP - Cold Start state"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517428,
+        "qmetry_summary": "Movie CDP - In Progress state metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517429,
+        "qmetry_summary": "Movie CDP - Completed Watching state metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517430,
+        "qmetry_summary": "Movie CDP - Cold Start state metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517431,
+        "qmetry_summary": "Series CDP - Completed Watching state metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517432,
+        "qmetry_summary": "Series CDP - In Progress state metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517433,
+        "qmetry_summary": "Series CDP - Cold Start state metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517434,
+        "qmetry_summary": "Playback from the season episode list episode tile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517435,
+        "qmetry_summary": "Authenticated User can play \\Extras\\ on  content details page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517436,
+        "qmetry_summary": "Restart playback of an asset from CDP with viewing progress"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517437,
+        "qmetry_summary": "Verify Autoplay Episodes behaviour when option sets to"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517438,
+        "qmetry_summary": "Verify interactions that  trigger the chrome to be shown"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517439,
+        "qmetry_summary": "Verify Metadata is hidden during scrubbing/seeking"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517440,
+        "qmetry_summary": "Verify user can FF/Back video using FFW/RW w/ Speed Ramps"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517441,
+        "qmetry_summary": "Verify user can FF/Back video 10 seconds with a Single Click"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517442,
+        "qmetry_summary": "Verify video state when user enters the player"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517443,
+        "qmetry_summary": "Verify user action trigger the chrome to be hidden"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517444,
+        "qmetry_summary": "Verify that settings persist across profiles"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517445,
+        "qmetry_summary": "Verify Autoplay Preview behaviour when option sets to OFF"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517446,
+        "qmetry_summary": "Verify Autoplay Preview  behaviour when option sets to ON"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517447,
+        "qmetry_summary": "User sees the back button on the End Card upon the end of credits"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517448,
+        "qmetry_summary": "User can select a tile from the End Card during credits"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517449,
+        "qmetry_summary": "User can dismiss timer and bring back Up Next component"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517450,
+        "qmetry_summary": "User can scrub/ff into Up Next timer"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517451,
+        "qmetry_summary": "User can see Up Next component even when content is rewinded"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517452,
+        "qmetry_summary": "User can navigate to MLP after Up Next component appears (CTV)"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517453,
+        "qmetry_summary": "User can pause and resume content after Up Next component appears"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517454,
+        "qmetry_summary": "User can ignore Up Next button with Autoplay off and Short credits"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517455,
+        "qmetry_summary": "User can ignore 1st and select 2nd Up Next button with Autoplay off and Long credits"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517456,
+        "qmetry_summary": "User can select Up Next button with Autoplay off and credits of"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517457,
+        "qmetry_summary": "User can cancel Up Next timer with Autoplay on and Short credits"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517458,
+        "qmetry_summary": "User can cancel 1st and ignore 2nd Up Next timer with Autoplay on and Long credits"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517459,
+        "qmetry_summary": "User can ignore Up Next timer with Autoplay on and credits of"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517460,
+        "qmetry_summary": "User can select Up Next timer with Autoplay on and credits of"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517461,
+        "qmetry_summary": "User can see Inline video stop when scrolling out of view"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517462,
+        "qmetry_summary": "Kids Profile User- Kids bumper and VO during TV-Y7"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517463,
+        "qmetry_summary": "Kids Profile User- Kids bumper and VO during TV-Y"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517464,
+        "qmetry_summary": "Authenticated User - Fast forward past multiple ad breaks"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517465,
+        "qmetry_summary": "Authenticated User - Rewind over previously viewed ad break"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517466,
+        "qmetry_summary": "Authenticated User - Verify Ad to Playback Transition for Pre, Mid and Post roll Ads"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517467,
+        "qmetry_summary": "Authenticated User - Exit and Restart Player during Ad Playback"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517468,
+        "qmetry_summary": "Authenticated User - Ad Pods can't be skipped"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517469,
+        "qmetry_summary": "Authenticated user can able to access Help section"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517470,
+        "qmetry_summary": "Info Tab"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517471,
+        "qmetry_summary": "Manage Profile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517472,
+        "qmetry_summary": "Authenticated user can able to access info section in setting Tab"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517473,
+        "qmetry_summary": "Manage Subscription"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517474,
+        "qmetry_summary": "Authenticated user can able to access manage account page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517475,
+        "qmetry_summary": "Anonymous user observes expected Welcome Screen metadata"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517476,
+        "qmetry_summary": "Validate App load experience"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517477,
+        "qmetry_summary": "Validation of WelcomeScreen"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517478,
+        "qmetry_summary": "Cancel Removal via long press on Continue Watching rail and My Stuff tab"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517479,
+        "qmetry_summary": "Continue Watching Removal From Rail (Homepage)"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517480,
+        "qmetry_summary": "Continue watching rail asset list is profile specific"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517481,
+        "qmetry_summary": "Decreasing rating on Kids profile removes content rated above restriction"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517482,
+        "qmetry_summary": "Fully watched show is not displayed in Continue watching rail"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517483,
+        "qmetry_summary": "Only one asset is displayed per show"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517484,
+        "qmetry_summary": "Continue Watching for 'Up Next' episodes"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517485,
+        "qmetry_summary": "Validate: My Stuff > Continue Watching tab behavior"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517486,
+        "qmetry_summary": "Validate: Metadata on Continue Watching on HomePage"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517487,
+        "qmetry_summary": "Validate: Metadata on Continue Watching on MyStuff page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517488,
+        "qmetry_summary": "Remove shows from My Stuff > My List tab using asset tiles"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517489,
+        "qmetry_summary": "Validating My List for Kids Profile - when ratings are changed"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517490,
+        "qmetry_summary": "Validating Kids Profile adds/removes assets to My List"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517491,
+        "qmetry_summary": "Authenticated New User -Validating no My List rail on Home Page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517492,
+        "qmetry_summary": "Validate MY List rail update behaviour on Home Page (CTV&Cdev)"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517493,
+        "qmetry_summary": "Authenticated user- Validate the persistence of My list across different profiles"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517494,
+        "qmetry_summary": "Authenticated user- Validate the persistence of My list across different profiles when adding a new show"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517495,
+        "qmetry_summary": "Validating an asset is being added/queued in the order in which it was added"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517496,
+        "qmetry_summary": "Add / Remove from My list on"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517497,
+        "qmetry_summary": "Authenticated user - My list Functionality [tool tip]  Adding shows"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517498,
+        "qmetry_summary": "Authenticated user navigates back to My Stuff > My List tab post interaction"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517499,
+        "qmetry_summary": "Lens groups are  while navigating"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517500,
+        "qmetry_summary": "Universal search deep link happy path"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517501,
+        "qmetry_summary": "Validate Because You Watched rails will appear for users with some watch history"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517502,
+        "qmetry_summary": "Validate Because You Watched rails will not appear for new customers"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517503,
+        "qmetry_summary": "Validate the cold start title (no interaction history)  will show YMAL rail."
+    },
+    {
+        "qmetry_testcase_execution_id": 83517504,
+        "qmetry_summary": "Validate Recommended For You rails will appear for users with some watch history"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517505,
+        "qmetry_summary": "Authenticated user can get Audio Description content as Search results"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517506,
+        "qmetry_summary": "Validate Backstack for Kids profile (w/PIN)9.3"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517507,
+        "qmetry_summary": "Validate Backstack for Kids profile 9.3"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517508,
+        "qmetry_summary": "Validate Backstack functionality for Player Controls 2.1  (CTV/CDev)"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517509,
+        "qmetry_summary": "Validate Backstack functionality for Continue Watching 1.2"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517510,
+        "qmetry_summary": "Validate Backstack functionality for Browsing 1.1 (ctv)"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517511,
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar Selection CTV -  remote up"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517512,
+        "qmetry_summary": "Parental Controls - Turn off Kid-proof Exit"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517513,
+        "qmetry_summary": "Validate Upcoming Event for Sports"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517514,
+        "qmetry_summary": "Validate Live Event For Sports"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517515,
+        "qmetry_summary": "Parental Controls - KPE is Off when adding new profile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517516,
+        "qmetry_summary": "Validate a rail should not scroll infinitely"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517517,
+        "qmetry_summary": "Validate Grids dont have a minimum amount of tiles required"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517518,
+        "qmetry_summary": "Validate Generic Grid behavior on the right most tile in a grid"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517519,
+        "qmetry_summary": "Validate Generic Grid behavior upon pressing up and down button on the controller"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517520,
+        "qmetry_summary": "Validate Generic Grid behavior on the last row of the grid"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517521,
+        "qmetry_summary": "Validate Generic Grid behaviour upon pressing right and left button on the controller"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517522,
+        "qmetry_summary": "Validate VOD Content For Sports"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517523,
+        "qmetry_summary": "Parental Controls - Enter Parent Code - validate  Parent Code"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517524,
+        "qmetry_summary": "Parental Controls - Exit Kids Profile Page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517525,
+        "qmetry_summary": "Verify Info Panel details for Sports VOD Event"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517526,
+        "qmetry_summary": "Validate Dpad down action on Immersive Hero"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517527,
+        "qmetry_summary": "Search does not return content for a kid\u2019s profile when out of rating threshold"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517528,
+        "qmetry_summary": "Verify that user cannot toggle \\On Kids\\ mode for an adult profile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517529,
+        "qmetry_summary": "Verify that Kids Profile Kids Mode Option is Not Read-Only on Mobile/CTV"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517530,
+        "qmetry_summary": "Default Kids Profile - First login: Default ratings"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517531,
+        "qmetry_summary": "Default Kids Profile - First login: Ratings banner"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517532,
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar  Selection CTV - default focus"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517533,
+        "qmetry_summary": "Profiles & Globalization Experience - Skip Avatar Selection"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517534,
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar Selection"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517535,
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar Selection CTV - back navigation - top of screen"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517536,
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar Selection CTV - back navigation - previous screen"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517537,
+        "qmetry_summary": "My Profile Menu - Incorrect PIN when trying to access a locked profile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517538,
+        "qmetry_summary": "Profiles & Globalization Experience - Forgot PIN - User forgot PIN but knows account password"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517539,
+        "qmetry_summary": "Verify user can FF/Back video 10 seconds with a Single Click"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517540,
+        "qmetry_summary": "Verify video state when user enters the player"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517541,
+        "qmetry_summary": "Verify user action trigger the chrome to be hidden"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517542,
+        "qmetry_summary": "Verify clicking back button takes back to content details page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517543,
+        "qmetry_summary": "Jump actions (Skip 10 sec) will not present the user with Thumbnails"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517544,
+        "qmetry_summary": "R&A is not displayed after coming back from ad"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517545,
+        "qmetry_summary": "R&A cannot be dismissed"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517546,
+        "qmetry_summary": "R&A is not displayed after coming back from ad - EMEA"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517547,
+        "qmetry_summary": "Pause after R&A timer expires"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517548,
+        "qmetry_summary": "Top 10 Rail Validation - Child Profile (no rail)"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517549,
+        "qmetry_summary": "Top 10 Rail Validation - Rail Elements"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517550,
+        "qmetry_summary": "Top 10 Rail Validation - Lense Pages"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517551,
+        "qmetry_summary": "Top 10 Rail Validation - Home Page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517552,
+        "qmetry_summary": "PIN prompt when try to access to a locked profile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517553,
+        "qmetry_summary": "Pause within R&A timer"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517554,
+        "qmetry_summary": "R&A  displays on subsequent plays in a binge"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517555,
+        "qmetry_summary": "When stream starts without pre-rolls, intro, recaps or promos R&A displays for the duration of its timer"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517556,
+        "qmetry_summary": "Validate Skip Intro Button Does Not Appear On Screen When Pre-Roll is Assigned to be Unskippable"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517557,
+        "qmetry_summary": "Deletion of a user profile"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517558,
+        "qmetry_summary": "Validate Skip Intro button available with player controls"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517559,
+        "qmetry_summary": "Verify Selecting \u201cMore Episodes\u201d takes the user to the show page/series details page"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517560,
+        "qmetry_summary": "Verify audio and CC will be  uniquely identified with"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517561,
+        "qmetry_summary": "Verify Audio/Caption settings fallback to default settings if unavailable for selected content"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517562,
+        "qmetry_summary": "Standard Profile Creation -  Special Characters"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517563,
+        "qmetry_summary": "Verify order of displayed languages"
+    },
+    {
+        "qmetry_testcase_execution_id": 83517564,
+        "qmetry_summary": "Verify general metadata"
+    }
+]

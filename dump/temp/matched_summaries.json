@@ -1,0 +1,562 @@
+[
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated User - Fast forward past multiple ad breaks",
+        "qmetry_summary": "Authenticated User - Fast forward past multiple ad breaks",
+        "qmetry_testcase_execution_id": 83517464,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated User - Verify Ad to Playback Transition for Pre, Mid roll Ads",
+        "qmetry_summary": "Authenticated User - Verify Ad to Playback Transition for Pre, Mid and Post roll Ads",
+        "qmetry_testcase_execution_id": 83517466,
+        "similarity": 0.94
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Skip Intro button available with player controls",
+        "qmetry_summary": "Validate Skip Intro button available with player controls",
+        "qmetry_testcase_execution_id": 83517558,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify user can FF/Back video using FFW/RW w/ Speed Ramps[RWD]",
+        "qmetry_summary": "Verify user can FF/Back video using FFW/RW w/ Speed Ramps",
+        "qmetry_testcase_execution_id": 83517440,
+        "similarity": 0.96
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify user can FF/Back video using FFW/RW w/ Speed Ramps[FFD]",
+        "qmetry_summary": "Verify user can FF/Back video using FFW/RW w/ Speed Ramps",
+        "qmetry_testcase_execution_id": 83517440,
+        "similarity": 0.96
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User sees the back button on the End Card upon the end of credits[LastEpisode]",
+        "qmetry_summary": "User sees the back button on the End Card upon the end of credits",
+        "qmetry_testcase_execution_id": 83517447,
+        "similarity": 0.91
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User sees the back button on the End Card upon the end of credits[Movies]",
+        "qmetry_summary": "User sees the back button on the End Card upon the end of credits",
+        "qmetry_testcase_execution_id": 83517447,
+        "similarity": 0.94
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can select a tile from the End Card during credits[LastEpisode]",
+        "qmetry_summary": "User can select a tile from the End Card during credits",
+        "qmetry_testcase_execution_id": 83517448,
+        "similarity": 0.89
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can select a tile from the End Card during credits[Movies]",
+        "qmetry_summary": "User can select a tile from the End Card during credits",
+        "qmetry_testcase_execution_id": 83517448,
+        "similarity": 0.93
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "R&A cannot be dismissed",
+        "qmetry_summary": "R&A cannot be dismissed",
+        "qmetry_testcase_execution_id": 83517545,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Backstack functionality for Player Controls 2.1 (CTV/CDev)",
+        "qmetry_summary": "Validate Backstack functionality for Player Controls 2.1  (CTV/CDev)",
+        "qmetry_testcase_execution_id": 83517508,
+        "similarity": 0.99
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify Pause After R&A timer expires",
+        "qmetry_summary": "Pause after R&A timer expires",
+        "qmetry_testcase_execution_id": 83517547,
+        "similarity": 0.86
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "R&A is not displayed after coming back from ad",
+        "qmetry_summary": "R&A is not displayed after coming back from ad",
+        "qmetry_testcase_execution_id": 83517544,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify Pause within R&A timer",
+        "qmetry_summary": "Pause within R&A timer",
+        "qmetry_testcase_execution_id": 83517553,
+        "similarity": 0.86
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Restart playback of an asset from CDP with viewing progress[Topical]",
+        "qmetry_summary": "Restart playback of an asset from CDP with viewing progress",
+        "qmetry_testcase_execution_id": 83517436,
+        "similarity": 0.93
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Restart playback of an asset from CDP with viewing progress[Episodes]",
+        "qmetry_summary": "Restart playback of an asset from CDP with viewing progress",
+        "qmetry_testcase_execution_id": 83517436,
+        "similarity": 0.92
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Restart playback of an asset from CDP with viewing progress[Movies]",
+        "qmetry_summary": "Restart playback of an asset from CDP with viewing progress",
+        "qmetry_testcase_execution_id": 83517436,
+        "similarity": 0.94
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Skip Intro Button Not Appear When Pre-Roll is Assigned to be Unskippable",
+        "qmetry_summary": "Validate Skip Intro Button Does Not Appear On Screen When Pre-Roll is Assigned to be Unskippable",
+        "qmetry_testcase_execution_id": 83517556,
+        "similarity": 0.92
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify that settings persist across profiles",
+        "qmetry_summary": "Verify that settings persist across profiles",
+        "qmetry_testcase_execution_id": 83517444,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated User can play Extras on content details page",
+        "qmetry_summary": "Authenticated User can play \\Extras\\ on  content details page",
+        "qmetry_testcase_execution_id": 83517435,
+        "similarity": 0.97
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify user action trigger the chrome to be hidden",
+        "qmetry_summary": "Verify user action trigger the chrome to be hidden",
+        "qmetry_testcase_execution_id": 83517443,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - In Progress state metadata[Topical]",
+        "qmetry_summary": "Series CDP - In Progress state metadata",
+        "qmetry_testcase_execution_id": 83517432,
+        "similarity": 0.9
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - In Progress state metadata[Episodes]",
+        "qmetry_summary": "Series CDP - In Progress state metadata",
+        "qmetry_testcase_execution_id": 83517432,
+        "similarity": 0.89
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated User - Exit and Restart Player during Ad Playback",
+        "qmetry_summary": "Authenticated User - Exit and Restart Player during Ad Playback",
+        "qmetry_testcase_execution_id": 83517467,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify user can FF/Back video 10 seconds with a Single Click[Backward]",
+        "qmetry_summary": "Verify user can FF/Back video 10 seconds with a Single Click",
+        "qmetry_testcase_execution_id": 83517441,
+        "similarity": 0.92
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify user can FF/Back video 10 seconds with a Single Click[Forward]",
+        "qmetry_summary": "Verify user can FF/Back video 10 seconds with a Single Click",
+        "qmetry_testcase_execution_id": 83517441,
+        "similarity": 0.93
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Playback from the season episode list episode tile",
+        "qmetry_summary": "Playback from the season episode list episode tile",
+        "qmetry_testcase_execution_id": 83517434,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - Cold Start state metadata[Podcast]",
+        "qmetry_summary": "Series CDP - Cold Start state metadata",
+        "qmetry_testcase_execution_id": 83517433,
+        "similarity": 0.89
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - Cold Start state metadata[Topical]",
+        "qmetry_summary": "Series CDP - Cold Start state metadata",
+        "qmetry_testcase_execution_id": 83517433,
+        "similarity": 0.89
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - Cold Start state metadata[Episodes]",
+        "qmetry_summary": "Series CDP - Cold Start state metadata",
+        "qmetry_testcase_execution_id": 83517433,
+        "similarity": 0.88
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Jump actions (Skip 10 sec) will not present the user with Thumbnails",
+        "qmetry_summary": "Jump actions (Skip 10 sec) will not present the user with Thumbnails",
+        "qmetry_testcase_execution_id": 83517543,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - Completed Watching state metadata[LastTopical]",
+        "qmetry_summary": "Series CDP - Completed Watching state metadata",
+        "qmetry_testcase_execution_id": 83517431,
+        "similarity": 0.88
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Series CDP - Completed Watching state metadata[LastEpisode]",
+        "qmetry_summary": "Series CDP - Completed Watching state metadata",
+        "qmetry_testcase_execution_id": 83517431,
+        "similarity": 0.88
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Movie CDP - In Progress state metadata",
+        "qmetry_summary": "Movie CDP - In Progress state metadata",
+        "qmetry_testcase_execution_id": 83517428,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify clicking back button takes back to content details page[Episodes]",
+        "qmetry_summary": "Verify clicking back button takes back to content details page",
+        "qmetry_testcase_execution_id": 83517542,
+        "similarity": 0.93
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify clicking back button takes back to content details page[Movie]",
+        "qmetry_summary": "Verify clicking back button takes back to content details page",
+        "qmetry_testcase_execution_id": 83517542,
+        "similarity": 0.95
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Movie CDP - Cold Start state metadata",
+        "qmetry_summary": "Movie CDP - Cold Start state metadata",
+        "qmetry_testcase_execution_id": 83517430,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify interactions that trigger the chrome to be shown",
+        "qmetry_summary": "Verify interactions that  trigger the chrome to be shown",
+        "qmetry_testcase_execution_id": 83517438,
+        "similarity": 0.99
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify Autoplay Episodes behaviour when option sets to [On-Start Playing]",
+        "qmetry_summary": "Verify Autoplay Episodes behaviour when option sets to",
+        "qmetry_testcase_execution_id": 83517437,
+        "similarity": 0.85
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Profiles & Globalization Experience - Avatar Selection CTV  - remote up",
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar Selection CTV -  remote up",
+        "qmetry_testcase_execution_id": 83517511,
+        "similarity": 0.99
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Parental Controls - KPE is Off when adding new profile",
+        "qmetry_summary": "Parental Controls - KPE is Off when adding new profile",
+        "qmetry_testcase_execution_id": 83517515,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Backstack for Kids profile 9.3",
+        "qmetry_summary": "Validate Backstack for Kids profile (w/PIN)9.3",
+        "qmetry_testcase_execution_id": 83517506,
+        "similarity": 0.92
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Profiles & Globalization Experience - Avatar Selection CTV - default focus",
+        "qmetry_summary": "Profiles & Globalization Experience - Avatar Selection CTV -  remote up",
+        "qmetry_testcase_execution_id": 83517511,
+        "similarity": 0.87
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "PIN prompt when trying to access to a locked profile",
+        "qmetry_summary": "PIN prompt when try to access to a locked profile",
+        "qmetry_testcase_execution_id": 83517552,
+        "similarity": 0.97
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Profiles & Globalization Experience - Skip Avatar Selection",
+        "qmetry_summary": "Profiles & Globalization Experience - Skip Avatar Selection",
+        "qmetry_testcase_execution_id": 83517533,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Verify that user cannot toggle \"On Kids\" mode for an adult profile",
+        "qmetry_summary": "Verify that user cannot toggle \\On Kids\\ mode for an adult profile",
+        "qmetry_testcase_execution_id": 83517528,
+        "similarity": 0.97
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Deletion of a user profile \"\"[Kids]",
+        "qmetry_summary": "Deletion of a user profile",
+        "qmetry_testcase_execution_id": 83517557,
+        "similarity": 0.85
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can navigate to MLP after Up Next component appears (CTV)[Episodes-1]",
+        "qmetry_summary": "User can navigate to MLP after Up Next component appears (CTV)",
+        "qmetry_testcase_execution_id": 83517452,
+        "similarity": 0.91
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can dismiss timer & bring back Up Next component",
+        "qmetry_summary": "User can dismiss timer and bring back Up Next component",
+        "qmetry_testcase_execution_id": 83517449,
+        "similarity": 0.96
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can pause & resume content after Up Next component",
+        "qmetry_summary": "User can pause and resume content after Up Next component appears",
+        "qmetry_testcase_execution_id": 83517453,
+        "similarity": 0.9
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can ignore Up Next button with Autoplay off and Short credits[EpisodeCreditShort-15]",
+        "qmetry_summary": "User can ignore Up Next button with Autoplay off and Short credits",
+        "qmetry_testcase_execution_id": 83517454,
+        "similarity": 0.85
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can cancel Up Next timer with Autoplay on and Short credits",
+        "qmetry_summary": "User can cancel Up Next timer with Autoplay on and Short credits",
+        "qmetry_testcase_execution_id": 83517457,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "User can cancel 1st and ignore 2nd Up Next timer with Autoplay on and Long credits",
+        "qmetry_summary": "User can cancel 1st and ignore 2nd Up Next timer with Autoplay on and Long credits",
+        "qmetry_testcase_execution_id": 83517458,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Upcoming Event for Sports",
+        "qmetry_summary": "Validate Upcoming Event for Sports",
+        "qmetry_testcase_execution_id": 83517513,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated user can get Audio Description content as Search results",
+        "qmetry_summary": "Authenticated user can get Audio Description content as Search results",
+        "qmetry_testcase_execution_id": 83517505,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate onboarding for a new user via Home screen",
+        "qmetry_summary": "Validate onboarding for a new user via Home screen",
+        "qmetry_testcase_execution_id": 83517416,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Remove shows from My Stuff > My List tab using asset tiles",
+        "qmetry_summary": "Remove shows from My Stuff > My List tab using asset tiles",
+        "qmetry_testcase_execution_id": 83517488,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validating an asset is being added/queued in the order in which it was added",
+        "qmetry_summary": "Validating an asset is being added/queued in the order in which it was added",
+        "qmetry_testcase_execution_id": 83517495,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated user- Validate the persistence of My list when adding a new show",
+        "qmetry_summary": "Authenticated user- Validate the persistence of My list across different profiles when adding a new show",
+        "qmetry_testcase_execution_id": 83517494,
+        "similarity": 0.86
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated user- Validate the persistence of My list across different profiles",
+        "qmetry_summary": "Authenticated user- Validate the persistence of My list across different profiles",
+        "qmetry_testcase_execution_id": 83517493,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated New User -Validating no My List rail on Home Page",
+        "qmetry_summary": "Authenticated New User -Validating no My List rail on Home Page",
+        "qmetry_testcase_execution_id": 83517491,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Add / Remove from My list on pageName",
+        "qmetry_summary": "Add / Remove from My list on",
+        "qmetry_testcase_execution_id": 83517496,
+        "similarity": 0.86
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Dpad down action on Immersive Hero[Card-Changing]",
+        "qmetry_summary": "Validate Dpad down action on Immersive Hero",
+        "qmetry_testcase_execution_id": 83517526,
+        "similarity": 0.85
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Dpad down action on Immersive Hero[Video-Playing]",
+        "qmetry_summary": "Validate Dpad down action on Immersive Hero",
+        "qmetry_testcase_execution_id": 83517526,
+        "similarity": 0.85
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Generic Grid behavior on the last row of the grid[Down]",
+        "qmetry_summary": "Validate Generic Grid behavior on the last row of the grid",
+        "qmetry_testcase_execution_id": 83517520,
+        "similarity": 0.95
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Top 10 Rail Validation - Child Profile (no rail)[Series]",
+        "qmetry_summary": "Top 10 Rail Validation - Child Profile (no rail)",
+        "qmetry_testcase_execution_id": 83517548,
+        "similarity": 0.92
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Top 10 Rail Validation - Child Profile (no rail)[Movies]",
+        "qmetry_summary": "Top 10 Rail Validation - Child Profile (no rail)",
+        "qmetry_testcase_execution_id": 83517548,
+        "similarity": 0.92
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Top 10 Rail Validation - Child Profile (no rail)[Home]",
+        "qmetry_summary": "Top 10 Rail Validation - Child Profile (no rail)",
+        "qmetry_testcase_execution_id": 83517548,
+        "similarity": 0.94
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Top 10 Rail Validation - Home Page[Series]",
+        "qmetry_summary": "Top 10 Rail Validation - Home Page",
+        "qmetry_testcase_execution_id": 83517551,
+        "similarity": 0.89
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Top 10 Rail Validation - Home Page[Movies]",
+        "qmetry_summary": "Top 10 Rail Validation - Home Page",
+        "qmetry_testcase_execution_id": 83517551,
+        "similarity": 0.89
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Because You Watched rails will not appear for new customers",
+        "qmetry_summary": "Validate Because You Watched rails will not appear for new customers",
+        "qmetry_testcase_execution_id": 83517502,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Grids dont have a minimum amount of tiles required",
+        "qmetry_summary": "Validate Grids dont have a minimum amount of tiles required",
+        "qmetry_testcase_execution_id": 83517517,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Validate Backstack functionality for Continue Watching 1.2",
+        "qmetry_summary": "Validate Backstack functionality for Continue Watching 1.2",
+        "qmetry_testcase_execution_id": 83517509,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Only one asset is displayed per show",
+        "qmetry_summary": "Only one asset is displayed per show",
+        "qmetry_testcase_execution_id": 83517483,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Continue Watching for 'Up Next' episodes[My Stuff-Tab]",
+        "qmetry_summary": "Continue Watching for 'Up Next' episodes",
+        "qmetry_testcase_execution_id": 83517484,
+        "similarity": 0.85
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated user can able to access info section in setting Tab",
+        "qmetry_summary": "Authenticated user can able to access info section in setting Tab",
+        "qmetry_testcase_execution_id": 83517472,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Manage Profile",
+        "qmetry_summary": "Manage Profile",
+        "qmetry_testcase_execution_id": 83517471,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated user can able to access manage account page",
+        "qmetry_summary": "Authenticated user can able to access manage account page",
+        "qmetry_testcase_execution_id": 83517474,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Manage Subscription",
+        "qmetry_summary": "Manage Subscription",
+        "qmetry_testcase_execution_id": 83517473,
+        "similarity": 1.0
+    },
+    {
+        "stbt_result": "pass",
+        "stbt_summary": "Authenticated user can able to access Help section",
+        "qmetry_summary": "Authenticated user can able to access Help section",
+        "qmetry_testcase_execution_id": 83517469,
+        "similarity": 1.0
+    }
+]
