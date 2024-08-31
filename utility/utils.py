@@ -5,20 +5,9 @@
 import difflib
 import json
 import os
-import platform
-import random
-import re
-import subprocess
-import sys
 import time
-from datetime import date, timedelta, datetime
-from importlib import reload
-from io import BytesIO
 from pathlib import Path
 
-import pytz
-import requests
-from PIL import Image
 from dotenv import load_dotenv
 
 from common.logger import Logger
@@ -134,6 +123,64 @@ def generate_qmetry_comparison_json(qmetry_filepath, stbt_filepath, threshold=0.
 
     write_to_json_file(MainConfig.MATCHED_REPORT_QMETRY_STBT, matched_summaries)
 
+
+def ensure_env_vars(env_file='.env'):
+    """
+    Ensures that the required environment variables are present.
+    If the .env file does not exist, it creates it.
+    If a key exists but has no value, it prompts the user to enter a value
+    and updates the key in the .env file.
+    Returns True if both environment variables are present, otherwise False.
+
+    :param env_file: Path to the .env file (default is '.env')
+    :return: True if both QMETRY_OPEN_API and STBT_API_TOKEN are present, False otherwise
+    """
+    # Check if the .env file exists, if not create it
+    if not os.path.exists(env_file):
+        with open(env_file, 'w') as f:
+            f.write('# Environment Variables\n')
+
+    # Load environment variables from .env file
+    load_dotenv(env_file)
+
+    # Read the existing .env file into a dictionary
+    env_vars = {}
+    with open(env_file, 'r') as f:
+        for line in f:
+            if '=' in line:
+                key, value = line.strip().split('=', 1)
+                env_vars[key] = value
+
+    # List of required environment variables
+    required_env_vars = {
+        'QMETRY_OPEN_API': 'Enter QMETRY_OPEN_API key: ',
+        'STBT_API_TOKEN': 'Enter STBT_API_TOKEN key: '
+    }
+
+    all_vars_present = True
+
+    # Check and update each required environment variable
+    for key, prompt in required_env_vars.items():
+        if not env_vars.get(key) or not env_vars[key].strip():
+            all_vars_present = False
+            # Prompt user to enter the missing or empty key value
+            value = input(prompt)
+            env_vars[key] = value
+
+    # Write the updated environment variables back to the .env file
+    with open(env_file, 'w') as f:
+        for key, value in env_vars.items():
+            f.write(f'{key}={value}\n')
+
+    # Reload environment variables after modifications
+    load_dotenv(env_file)
+
+    # Final check if all required variables are present
+    for key in required_env_vars.keys():
+        if not os.getenv(key):
+            return False
+
+    return all_vars_present
 
 
 

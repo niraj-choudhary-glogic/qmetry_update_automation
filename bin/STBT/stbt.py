@@ -3,6 +3,7 @@
 # Email: niraj.choudhary@wbdcontractor.com
 # Date: 24 AUG 2024
 import os
+import re
 
 import requests
 from bs4 import BeautifulSoup
@@ -49,14 +50,30 @@ class STBT:
     def _get_scenario_text(self, steps_html):
         """This will only get text of scenario so that it can use in different method for comparison"""
 
-        # Parse the HTML with BeautifulSoup
-        soup = BeautifulSoup(steps_html, "html.parser")
+        try:
 
-        # Extract the scenario text
-        scenario_text = soup.find("span", class_="keyword", string="Scenario:").find_next_sibling("span",
-                                                                                                  class_="name").text
+            soup = BeautifulSoup(steps_html, "html.parser")
+            scenario_text = soup.find("span", class_="keyword", string="Scenario:").find_next_sibling("span", class_="name").text
 
-        return scenario_text
+            return scenario_text
+        except Exception as exc:
+            self.log.warning('Unable to process Scenario due to %s', exc)
+
+    def _get_testcaseid_text(self, steps_html):
+        """This will only get text of scenario so that it can use in different method for comparison"""
+
+        try:
+
+            soup = BeautifulSoup(steps_html, "html.parser")
+            # Find the first occurrence of the pattern @C followed by digits
+            match = re.search(r'@C\d+', soup.get_text())
+
+            # Print the first match if found
+            if match:
+                return match.group()
+
+        except Exception as exc:
+            self.log.warning('Unable to process testcaseid due to %s', exc)
 
     def create_summary_report(self):
         testcases_run = self.api_get_testcases_run()
@@ -74,6 +91,7 @@ class STBT:
                 meta = {
                     "result": each_testcase['result'],
                     "summary": self._get_scenario_text(each_testcase['steps_html']),
+                    "testcaseid": self._get_testcaseid_text(each_testcase['steps_html'])
                 }
 
                 data.append(meta)
@@ -86,6 +104,5 @@ class STBT:
         write_to_json_file(MainConfig.STBT_SUMMARY_FILEPATH, data)
         write_to_json_file(MainConfig.STBT_FILEPATH, testcases_run)
 
-        print('')  # blank print to clear progress bar
         self.log.info("Results: Pass: %s, Fail: %s, Error: %s", _pass, _fail, _error)
         return data

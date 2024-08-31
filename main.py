@@ -1,10 +1,15 @@
+# KEY: 68747470733a2f2f74696e7975726c2e636f6d2f6e6b63686f756468617279646576
+# Author: Niraj Choudhary
+# Email: niraj.choudhary@wbdcontractor.com
+# Date: 30 AUG 2024
+
 import argparse
 
 from bin.QMetry.qmetry import QMetry
 from bin.STBT.stbt import STBT
 from common.logger import Logger
 from config import MainConfig
-from utility.utils import read_from_json_file, write_to_json_file, generate_qmetry_comparison_json
+from utility.utils import read_from_json_file, write_to_json_file, generate_qmetry_comparison_json, ensure_env_vars
 
 parser = argparse.ArgumentParser(description="Script to interact with QMetry and STBT job categories.")
 parser.add_argument('--qmetry_exec_id', type=str, default=None, help='The execution ID in QMetry.')
@@ -15,6 +20,10 @@ parser.add_argument('--compare_file', type=bool, default=False, help='Will creat
 
 args = parser.parse_args()
 log = Logger('Main')
+
+if not ensure_env_vars():
+    log.error('QMetry and STBT API Required, If already done then re-run this tool')
+    exit(1)
 
 if args.qmetry_exec_id:
     execution_id = args.qmetry_exec_id
@@ -42,4 +51,6 @@ if args.qmetry_update:
     for testcase in data:
         testid = testcase['qmetry_testcase_execution_id']
         obj.pass_testcase_by_id(testid)
+
+log.info('Thanks for using this tool!')
 
